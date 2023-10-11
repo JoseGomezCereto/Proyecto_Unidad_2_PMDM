@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">U1T1_Tarea</string>
+    <string name="name_placeholder">Nombre</string>
+    <string name="age_placeholder">Edad</string>
+</resources>
