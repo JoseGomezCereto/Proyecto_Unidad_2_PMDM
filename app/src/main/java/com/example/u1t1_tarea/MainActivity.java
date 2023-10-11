@@ -1,5 +1,7 @@
 package com.example.u1t1_tarea;
 
+import android.widget.ImageView;
+import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -13,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayoutManager llm;
 
     private ArrayList<Persona> personas;
+
+    private String nombre;
+    private String edad;
 
     private void inicializarPersonas(){
         personas = new ArrayList<>();
@@ -34,10 +39,24 @@ public class MainActivity extends AppCompatActivity {
         rvLista1.setLayoutManager(llm);
 
         inicializarPersonas();
-        adapter = new PersonasAdapter(personas);
+        adapter = new PersonasAdapter(personas, new OnItemClickListener(){
+            @Override
+            public void onItemClick(Persona persona) {
+                nombre = persona.getNombre();
+                if(nombre.equals("Kamal Namasté")){
+                    Toast.makeText(getApplicationContext(), nombre + " quien te hace los programas", Toast.LENGTH_SHORT).show();
+                }
+                else if (nombre.equals("Johnny Melavo")){
+                    Toast.makeText(getApplicationContext(), nombre + " tu primo el delincuente", Toast.LENGTH_SHORT).show();
+                }
+                else if (nombre.equals("Ching Chong Aloz")){
+                    Toast.makeText(getApplicationContext(), nombre + " NO LLAMES A TU EX", Toast.LENGTH_SHORT).show();
+                }
+                else
+                    Toast.makeText(getApplicationContext(), "¿Y éste quien es?", Toast.LENGTH_SHORT).show();
+            }
+        });
+
         rvLista1.setAdapter(adapter);
-
     }
-
-
 }
