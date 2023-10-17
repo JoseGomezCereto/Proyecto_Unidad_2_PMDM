@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuNuevaPersona"
+        android:icon="@drawable/add_persona"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        android:title="@string/add_persona"/>
+    <item
+        android:id="@+id/menuBorrarPersona"
+        android:icon="@drawable/delete_persona"
+        android:orderInCategory="20"
+        app:showAsAction="always"
+        android:title="@string/delete_persona"/>
+
+</menu>
