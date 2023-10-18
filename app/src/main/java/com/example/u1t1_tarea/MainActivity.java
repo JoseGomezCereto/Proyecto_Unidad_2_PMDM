@@ -2,7 +2,6 @@ package com.example.u1t1_tarea;
 
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ImageView;
 import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,10 +9,11 @@ import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity
+        extends AppCompatActivity
+    implements PersonasAdapter.OnItemSelectListener {
 
     private RecyclerView rvLista1;
     private LinearLayoutManager llm;
@@ -71,25 +71,35 @@ public class MainActivity extends AppCompatActivity {
         rvLista1.setLayoutManager(llm);
 
         inicializarPersonas();
-        adapter = new PersonasAdapter(personas, new OnItemClickListener(){
-            @Override
+        adapter = new PersonasAdapter(personas , this){
+
             public void onItemClick(Persona persona) {
                 nombre = persona.getNombre();
-                if(nombre.equals("Kamal Namasté")){
-                    Toast.makeText(getApplicationContext(), nombre + " quien te hace los programas", Toast.LENGTH_SHORT).show();
-                }
-                else if (nombre.equals("Johnny Melavo")){
-                    Toast.makeText(getApplicationContext(), nombre + " tu primo el delincuente", Toast.LENGTH_SHORT).show();
-                }
-                else if (nombre.equals("Ching Chong Aloz")){
-                    Toast.makeText(getApplicationContext(), nombre + " NO LLAMES A TU EX", Toast.LENGTH_SHORT).show();
-                }
-                else
-                    Toast.makeText(getApplicationContext(), "¿Y éste quien es?", Toast.LENGTH_SHORT).show();
+                edad = persona.getEdad();
+                Toast.makeText(MainActivity.this, "¡Hola, " + nombre + "!", Toast.LENGTH_SHORT).show();
             }
-
-        });
-
+            public void onMenuClick(Persona persona) {
+                nombre = persona.getNombre();
+                edad = persona.getEdad();
+                Toast.makeText(MainActivity.this, "¡Adiós, " + nombre + "!", Toast.LENGTH_SHORT).show();
+            }
+        };
         rvLista1.setAdapter(adapter);
+    }
+    @Override
+    public void onItemSelect(Persona persona) {
+        Toast.makeText(this, "¡Hola, " + persona.getNombre() + "!", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onMenuAction(Persona persona, MenuItem item) {
+        int idSeleccionado = item.getItemId();
+        if (idSeleccionado == R.id.menuNuevaPersona) {
+            Toast.makeText(this, "¡Hola, " + persona.getNombre() + "!", Toast.LENGTH_SHORT).show();
+        } else if (idSeleccionado == R.id.menuBorrarPersona) {
+            Toast.makeText(this, "¡Adiós, " + persona.getNombre() + "!", Toast.LENGTH_SHORT).show();
+
+
+        }
     }
 }

@@ -12,5 +12,4 @@
         android:orderInCategory="20"
         app:showAsAction="always"
         android:title="@string/delete_persona"/>
-
 </menu>
