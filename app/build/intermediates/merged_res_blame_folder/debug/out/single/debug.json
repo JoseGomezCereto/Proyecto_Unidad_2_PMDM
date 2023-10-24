@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/drawable_foto2.jpg.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/drawable/foto2.jpg"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/drawable_add_persona.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/drawable/add_persona.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/menu_menu_contextual.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/menu/menu_contextual.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/drawable_foto4.jpg.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/drawable/foto4.jpg"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/drawable_delete_persona.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/drawable/delete_persona.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/menu_main.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/menu/main.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/layout_card_view.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/layout/card_view.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/drawable_foto3.jpg.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/drawable/foto3.jpg"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/drawable_foto1.jpg.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/drawable/foto1.jpg"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.u1t1_tarea.app-merged_res-28:/layout_custom_toast.xml.flat",
+        "source": "com.example.u1t1_tarea.app-main-30:/layout/custom_toast.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/xml_backup_rules.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/drawable_img_placeholder.png.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/drawable/img_placeholder.png"
+    },
+    {
+        "merged": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-merged_res-28:/layout_recycler_view.xml.flat",
+        "source": "/Users/josegomez/.gradle/daemon/8.0/com.example.u1t1_tarea.app-main-30:/layout/recycler_view.xml"
+    },
+    {
+        "merged": "com.example.u1t1_tarea.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "com.example.u1t1_tarea.app-main-30:/layout/activity_main.xml"
+    }
+]

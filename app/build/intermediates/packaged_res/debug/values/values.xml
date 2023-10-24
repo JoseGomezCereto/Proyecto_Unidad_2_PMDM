@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_persona">Añadir persona</string>
+    <string name="age_placeholder">Edad</string>
+    <string name="app_name">U1T1_Tarea</string>
+    <string name="delete_persona">Borrar persona</string>
+    <string name="lb_editar">Editar</string>
+    <string name="lb_eliminar">Eliminar</string>
+    <string name="lb_enviar_email">Enviar email</string>
+    <string name="lb_llamar_fijo">Llamar fijo</string>
+    <string name="lb_llamar_movil">Llamar móvil</string>
+    <string name="lb_ver_detalles">Ver detalles</string>
+    <string name="name_placeholder">Nombre</string>
+    <string name="no">No</string>
+    <string name="title_dialog">Saludo %1$s</string>
+    <string name="toast_icon_description">Icono de la aplicación</string>
+    <string name="yes">Si</string>
+    <style name="Base.Theme.U1T1_Tarea" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.U1T1_Tarea" parent="Base.Theme.U1T1_Tarea"/>
+</resources>
