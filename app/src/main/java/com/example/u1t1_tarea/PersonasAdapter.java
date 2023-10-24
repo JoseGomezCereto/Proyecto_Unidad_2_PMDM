@@ -47,7 +47,7 @@ public class PersonasAdapter extends RecyclerView.Adapter<PersonasAdapter.Person
             //Entonces, comprobamos que el listener está bien definido.
             if (listener != null) {
                 //Y llamamos al método onItemSelect del listener pasándole la persona que se ha seleccionado.
-                listener.onItemSelect(personas.get(position));
+                listener.onSelect(personas.get(position));
             }
         }
 
@@ -91,16 +91,17 @@ public class PersonasAdapter extends RecyclerView.Adapter<PersonasAdapter.Person
 
     //Interfaces. Una para cada evento que queremos escuchar en el adaptador.
     public interface OnItemSelectListener { //Interface para el click
-        void onItemSelect(Persona persona); //Método para el click en el elemento
+        void onSelect(Persona persona); //Método para el click en el elemento
         void onMenuAction(Persona persona, MenuItem item); //Método para el click en el menú del elemento
     }
 
-
+    //Métodos obligados por la clase padre
     @Override
     public int getItemCount() {
         return personas.size();
     }
 
+    //Método para crear el ViewHolder
     @Override
     public PersonasViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.card_view, viewGroup, false);
@@ -108,6 +109,7 @@ public class PersonasAdapter extends RecyclerView.Adapter<PersonasAdapter.Person
         return pvh;
     }
 
+    //Método para enlazar el ViewHolder con los datos
     @Override
     public void onBindViewHolder(PersonasViewHolder holder, int position) {
         holder.tvNombre.setText(personas.get(position).getNombre());
@@ -116,6 +118,7 @@ public class PersonasAdapter extends RecyclerView.Adapter<PersonasAdapter.Person
 
     }
 
+    //Método para notificar al adaptador que se ha añadido un elemento a la lista
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);

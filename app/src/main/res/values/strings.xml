@@ -10,4 +10,8 @@
     <string name="lb_eliminar">Eliminar</string>
     <string name="lb_enviar_email">Enviar email</string>
     <string name="lb_ver_detalles">Ver detalles</string>
+    <string name="title_dialog">Saludo %1$s</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="toast_icon_description">Icono de la aplicación</string>
 </resources>
